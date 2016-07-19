@@ -124,7 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stormy with chance of meatballs"
-        android:id="@+id/textView"
+        android:id="@+id/summaryLabel"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
@@ -132,5 +132,21 @@
         android:textSize="18dp"
         android:textIsSelectable="false"
         android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refreshImageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/refresh" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/refreshImageView" />
 
 </RelativeLayout>
